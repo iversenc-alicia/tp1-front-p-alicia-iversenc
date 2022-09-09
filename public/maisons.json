@@ -1,8 +1,28 @@
-[ 
-    {"nom":"testJSON", "price":34, "favoris":true, "txt":"produit de test", "nbbath":2, "nbsize":"test m²", "img":"/public/card.jpg"},
-
-    {"nom":"test2", "price":27, "favoris":false, "txt":"2ème produit de test", "nbbath":2, "nbsize":"test*2 m²", "img":"/public/card.jpg"},
-    
-    {"nom":"Dernier test", "price":86, "txt":"Dernier produit de test", "nbbath":1, "nbsize":"test m²", "img":"/public/card.jpg"}
-
+[
+    {
+        "nom": "maisonJSON",
+        "price": 82,
+        "favoris": true,
+        "txt": "produit de test",
+        "nbbath": 5,
+        "nbsize": "Json1 m²",
+        "img": "/public/maison.jpg"
+    },
+    {
+        "nom": "maisonJSON",
+        "price": 82,
+        "favoris": true,
+        "txt": "2ème produit de test",
+        "nbbath": 7,
+        "nbsize": "Json2 m²",
+        "img": "/public/maison2.jpg"
+    },
+    {
+        "nom": "maisonJSON",
+        "price": 72,
+        "txt": "Dernier produit de test",
+        "nbbath": 4,
+        "nbsize": "Json3 m²",
+        "img": "/public/maison3.jpg"
+    }
 ]
