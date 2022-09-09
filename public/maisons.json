@@ -3,7 +3,7 @@
         "nom": "maisonJSON",
         "price": 82,
         "favoris": true,
-        "txt": "produit de test",
+        "txt": "Ecosse",
         "nbbath": 5,
         "nbsize": "Json1 m²",
         "img": "/public/maison.jpg"
@@ -12,7 +12,7 @@
         "nom": "maisonJSON",
         "price": 82,
         "favoris": true,
-        "txt": "2ème produit de test",
+        "txt": "Angleterre",
         "nbbath": 7,
         "nbsize": "Json2 m²",
         "img": "/public/maison2.jpg"
@@ -20,7 +20,7 @@
     {
         "nom": "maisonJSON",
         "price": 72,
-        "txt": "Dernier produit de test",
+        "txt": "Canada",
         "nbbath": 4,
         "nbsize": "Json3 m²",
         "img": "/public/maison3.jpg"

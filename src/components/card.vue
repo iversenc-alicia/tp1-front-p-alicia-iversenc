@@ -48,7 +48,7 @@ import heart from "./icones/hearth.vue";
 defineProps({
     price: {
         type: Number,
-        default: 2500,
+        default: 3000,
     },
     favoris: {
         type: Boolean,
@@ -71,7 +71,7 @@ defineProps({
     },
     nbsize: {
         type: String,
-        default: "6x7.5 m²",
+        default: "5x7.5 m²",
     },
 });
 </script>

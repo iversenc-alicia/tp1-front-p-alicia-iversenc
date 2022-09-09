@@ -6,23 +6,23 @@
     </h4>
     <ul>
       <li>
-        <router-link class="text-red-600 underline" to="/">
+        <router-link class="text-red-600 underline font-bold" to="/">
           lien vers
           <code class="font-mono">/src/pages/index.vue</code>
         </router-link>
       <li>
-        <router-link class="text-red-600" to="/simple">
+        <router-link class="text-red-600 underline font-bold" to="/simple">
           <h2>lien vers Page Simple</h2>
         </router-link>
       </li>
       <li>
-        <router-link class="text-red-600" to="/liste">
+        <router-link class="text-red-600 underline font-bold" to="/liste">
           <h2>lien vers Page Liste</h2>
         </router-link>
       </li>
       </li>
       <li>
-        <router-link class="text-red-600 " to="/liste-fetch">
+        <router-link class="text-red-600 underline font-bold" to="/liste-fetch">
           <h2>lien vers Page Liste-fetch</h2>
         </router-link>
       </li>
