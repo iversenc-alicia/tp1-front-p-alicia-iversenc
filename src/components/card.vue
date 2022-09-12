@@ -48,7 +48,7 @@ import heart from "./icones/hearth.vue";
 defineProps({
     price: {
         type: Number,
-        default: 3000,
+        default: 2000,
     },
     favoris: {
         type: Boolean,
@@ -56,11 +56,11 @@ defineProps({
     },
     nom: {
         type: String,
-        default: "Beverly Springfield",
+        default: "Lieu",
     },
     txt: {
         type: String,
-        default: "2821 Lake Sevilla, Palm Harbor, TX",
+        default: "Adresse",
     },
     img: {
         type: String,
