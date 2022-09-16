@@ -26,13 +26,17 @@
           <h2>lien vers Page Liste-fetch</h2>
         </router-link>
       </li>
+      <li>
+        <router-link class="text-red-600 underline font-bold" to="/edit/new">
+          <h2>lien vers Page New</h2>
+        </router-link>
+      </li>
     </ul>
   </nav>
+  <!-- Affiche les pages -->
   <Suspense>
     <router-view class="m-2 border-2 p-2" />
   </Suspense>
-  <!-- Affiche les pages -->
-  <router-view class="m-2 border-2 p-2" />
 </template>
 
 <script setup lang="ts">
