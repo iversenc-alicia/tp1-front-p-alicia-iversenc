@@ -64,6 +64,7 @@ defineProps({
     },
     img: {
         type: String,
+        default: '/public/maison.jpg'
     },
     nbbath: {
         type: String,
