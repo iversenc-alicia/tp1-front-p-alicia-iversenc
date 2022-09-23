@@ -36,6 +36,11 @@
           <h2>lien vers Page Liste-supabase</h2>
         </router-link>
       </li>
+      <li>
+        <router-link class="text-red-600 underline font-bold" to="/login-logout">
+          <h2>Se connecter / Créer un compte</h2>
+        </router-link>
+      </li>
     </ul>
   </nav>
   <!-- Affiche les pages -->
