@@ -41,6 +41,11 @@
           <h2>Se connecter / Créer un compte</h2>
         </router-link>
       </li>
+      <li>
+        <router-link class="text-red-600 underline font-bold" to="/edit/id">
+          <h2>Page ID</h2>
+        </router-link>
+      </li>
     </ul>
   </nav>
   <!-- Affiche les pages -->
