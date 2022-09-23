@@ -13,7 +13,7 @@
             <hr class="my-2 border-t-2 border-indigo-100" />
             <div class="flex justify-between text-sm">
                 <div>
-                    <bed class="inline-block align-top" /> 6 Beds
+                    <bed class="inline-block align-top" /> {{ nbbed }}
                 </div>
                 <div>
                     <bath class="inline-block align-top" /> {{ nbbath }}
@@ -73,5 +73,10 @@ defineProps({
         type: String,
         default: "5x7.5 m²",
     },
+    nbbed: {
+        type: String,
+        default: "3",
+    },
+
 });
 </script>
