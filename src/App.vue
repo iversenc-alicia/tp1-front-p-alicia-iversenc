@@ -53,6 +53,11 @@
             <h2>Page ID</h2>
           </router-link>
         </li>
+        <li>
+          <router-link class="text-red-600 underline font-bold" to="/quartier">
+            <h2>Index quartier</h2>
+          </router-link>
+        </li>
       </ul>
     </div>
 
