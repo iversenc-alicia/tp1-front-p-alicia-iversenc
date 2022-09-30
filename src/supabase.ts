@@ -12,4 +12,4 @@ supabase.auth.onAuthStateChange(() => {
 })
 
 // Pour tester dans la console, dé-commenter la ligne qui suit :
-//globalThis.supabase = supabase
+globalThis.supabase = supabase
