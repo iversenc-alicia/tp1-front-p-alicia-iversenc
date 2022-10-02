@@ -3,7 +3,7 @@
         <img class="w-full rounded-t-lg" v-bind:src="img" alt="" />
         <figcaption class="relative flex flex-col rounded-b-lg border-2 border-t-0 px-5 py-7">
             <h3 class="text-2xl text-gray-900">{{ nom }}</h3>
-            <address class="not-italic text-gray-500">{{ txt }}</address>
+            <address class="not-italic text-gray-500">{{ Quartier }}</address>
             <div class="order-first flex items-center">
                 <div class="text-2xl text-indigo-500">
                     ${{price}}
@@ -58,7 +58,7 @@ defineProps({
         type: String,
         default: "Lieu",
     },
-    txt: {
+    Quartier: {
         type: String,
         default: "Adresse",
     },
