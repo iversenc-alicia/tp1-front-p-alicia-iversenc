@@ -48,7 +48,7 @@ async function upsertMaison(dataForm, node) {
             }" :submit-attrs="{ classes: { input: 'bg-red-500 p-2 rounded' } }">
                 <FormKit name="nom" label="Lieu de la maison" />
                 <FormKit name="price" label="Le prix de la maison" type="number" />
-                <FormKit name="txt" label="L'adresse de la maison'" />
+                <FormKit name="Quartier" label="L'adresse de la maison'" />
                 <FormKit name="nbbath" label="Nombre de salle de bain" />
                 <FormKit name="nbsize" label="Surface" />
                 <FormKit name="nbbed" label="Nombre de chambres" />
