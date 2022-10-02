@@ -22,7 +22,10 @@ if (error) console.log("n'a pas pu charger la table quartiercommune :", error);
                 <ul>
                     <li v-for="quartierObject in listeQuartier" :key="quartierObject.code_Quartier">
 
-                        {{ quartierObject.libelle_Quartier }}
+                        {{ quartierObject.libelle_Quartier }}<RouterLink :to="{
+                          name: 'quartier-id',
+                          params: { id: quartierObject.code_Quartier },
+                        }">edit</RouterLink>
                     </li>
                 </ul>
             </DisclosurePanel>
